@@ -11,6 +11,10 @@ import org.springframework.context.ApplicationContext;
  *
  * @author <a href="mailto:areyouok@gmail.com">huangli</a>
  */
+
+/**
+ * spring支持 CacheContext
+ */
 public class SpringCacheContext extends CacheContext {
 
     private ApplicationContext applicationContext;

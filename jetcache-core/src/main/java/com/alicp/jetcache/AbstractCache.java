@@ -29,6 +29,12 @@ import java.util.function.Function;
  *
  * @author <a href="mailto:areyouok@gmail.com">huangli</a>
  */
+
+/**
+ * 1.如果刷新缓存，添加刷新任务
+ * 2.如果缓存穿透保护，启动缓存穿透同步保护
+ *
+ */
 public abstract class AbstractCache<K, V> implements Cache<K, V> {
 
     private static Logger logger = LoggerFactory.getLogger(AbstractCache.class);

@@ -13,6 +13,10 @@ import org.slf4j.LoggerFactory;
 /**
  * @author <a href="mailto:areyouok@gmail.com">huangli</a>
  */
+
+/**
+ * key value 表达式计算方式
+ */
 class ExpressionUtil {
 
     private static final Logger logger = LoggerFactory.getLogger(ExpressionUtil.class);

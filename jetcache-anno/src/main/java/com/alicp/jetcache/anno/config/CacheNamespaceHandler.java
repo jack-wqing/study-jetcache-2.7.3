@@ -8,6 +8,10 @@ import org.springframework.beans.factory.xml.NamespaceHandlerSupport;
 /**
  * @author <a href="mailto:areyouok@gmail.com">huangli</a>
  */
+
+/**
+ * xml 配置支持
+ */
 public class CacheNamespaceHandler extends NamespaceHandlerSupport {
 
     @Override

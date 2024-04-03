@@ -1,17 +1,21 @@
 package com.alicp.jetcache;
 
 import com.alicp.jetcache.event.CacheEvent;
+
 import java.util.HashMap;
 import java.util.LinkedHashSet;
 import java.util.Map;
 import java.util.Set;
 import java.util.function.Consumer;
-import java.util.stream.Collectors;
 
 /**
  * Created on 2017/5/17.
  *
  * @author <a href="mailto:areyouok@gmail.com">huangli</a>
+ */
+
+/**
+ * 定义缓存操作方法的代理，如果没有使用CacheLoader进行加载的抽象
  */
 public class LoadingCache<K, V> extends SimpleProxyCache<K, V> {
 

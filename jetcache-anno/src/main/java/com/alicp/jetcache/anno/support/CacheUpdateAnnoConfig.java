@@ -8,6 +8,10 @@ import java.util.function.Function;
 /**
  * @author <a href="mailto:areyouok@gmail.com">huangli</a>
  */
+
+/**
+ * CacheUpdate注解映射
+ */
 public class CacheUpdateAnnoConfig extends CacheAnnoConfig {
 
     private String value;

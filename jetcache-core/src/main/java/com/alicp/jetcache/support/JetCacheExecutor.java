@@ -10,6 +10,10 @@ import java.util.concurrent.ThreadPoolExecutor;
  *
  * @author <a href="mailto:areyouok@gmail.com">huangli</a>
  */
+
+/**
+ * JetCache全局定时任务执行器 [Default / HeavyIO]
+ */
 public class JetCacheExecutor {
     protected volatile static ScheduledExecutorService defaultExecutor;
     protected volatile static ScheduledExecutorService heavyIOExecutor;

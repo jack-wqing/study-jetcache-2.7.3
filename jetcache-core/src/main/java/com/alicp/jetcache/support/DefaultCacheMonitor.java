@@ -24,6 +24,10 @@ import java.util.Set;
  *
  * @author <a href="mailto:areyouok@gmail.com">huangli</a>
  */
+
+/**
+ * 默认的缓存操作统计
+ */
 public class DefaultCacheMonitor implements CacheMonitor {
 
     private static final Logger logger = LoggerFactory.getLogger(DefaultCacheMonitor.class);

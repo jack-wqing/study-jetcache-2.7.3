@@ -10,6 +10,10 @@ import com.alicp.jetcache.external.ExternalCacheBuilder;
  *
  * @author <a href="mailto:areyouok@gmail.com">huangli</a>
  */
+
+/**
+ * 远程缓存，抽象配置设置
+ */
 public abstract class ExternalCacheAutoInit extends AbstractCacheAutoInit {
     public ExternalCacheAutoInit(String... cacheTypes) {
         super(cacheTypes);

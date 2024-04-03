@@ -11,6 +11,10 @@ import org.springframework.stereotype.Component;
  *
  * @author <a href="mailto:areyouok@gmail.com">huangli</a>
  */
+
+/**
+ * mock
+ */
 @Component
 @Conditional(MockRemoteCacheAutoConfiguration.MockRemoteCacheCondition.class)
 public class MockRemoteCacheAutoConfiguration extends ExternalCacheAutoInit {

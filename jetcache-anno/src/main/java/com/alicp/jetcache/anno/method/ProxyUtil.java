@@ -14,6 +14,10 @@ import java.lang.reflect.Proxy;
 /**
  * @author <a href="mailto:areyouok@gmail.com">huangli</a>
  */
+
+/**
+ * 对缓存配置信息进行缓存，JDK自带的动态代理进行切面处理
+ */
 public class ProxyUtil {
 
     public static <T> T getProxyByAnnotation(T target, ConfigProvider configProvider, CacheManager cacheManager) {

@@ -24,6 +24,10 @@ import java.util.function.Function;
  *
  * @author <a href="mailto:areyouok@gmail.com">huangli</a>
  */
+
+/**
+ * 缓存全局配置提供器
+ */
 public class ConfigProvider extends AbstractLifecycle {
 
     private static final Logger logger = LoggerFactory.getLogger(ConfigProvider.class);

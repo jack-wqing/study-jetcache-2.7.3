@@ -12,6 +12,10 @@ import java.util.function.Function;
  *
  * @author <a href="mailto:areyouok@gmail.com">huangli</a>
  */
+
+/**
+ * 缓存通用配置
+ */
 public class CacheConfig<K, V> implements Cloneable {
     private long expireAfterWriteInMillis = CacheConsts.DEFAULT_EXPIRE * 1000L;
     private long expireAfterAccessInMillis = 0;

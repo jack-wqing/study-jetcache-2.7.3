@@ -3,19 +3,32 @@
  */
 package com.alicp.jetcache.external;
 
-import com.alicp.jetcache.*;
+import com.alicp.jetcache.Cache;
+import com.alicp.jetcache.CacheConfig;
+import com.alicp.jetcache.CacheException;
+import com.alicp.jetcache.CacheGetResult;
+import com.alicp.jetcache.CacheResult;
+import com.alicp.jetcache.CacheValueHolder;
+import com.alicp.jetcache.MultiGetResult;
 import com.alicp.jetcache.embedded.LinkedHashMapCacheBuilder;
-import com.alicp.jetcache.external.AbstractExternalCache;
-import com.alicp.jetcache.external.ExternalCacheConfig;
 
 import java.lang.reflect.Method;
 import java.nio.ByteBuffer;
-import java.util.*;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.LinkedList;
+import java.util.Map;
+import java.util.Set;
 import java.util.concurrent.TimeUnit;
 import java.util.stream.Collectors;
 
 /**
  * @author <a href="mailto:areyouok@gmail.com">huangli</a>
+ */
+
+/**
+ * mock远程cache
  */
 public class MockRemoteCache<K, V> extends AbstractExternalCache<K, V> {
     private Cache<ByteBuffer, byte[]> cache;

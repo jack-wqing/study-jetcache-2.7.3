@@ -16,6 +16,11 @@ import java.util.function.Consumer;
  *
  * @author <a href="mailto:areyouok@gmail.com">huangli</a>
  */
+
+/**
+ * 非Spring boot环境对 jetCache缓存配置支持
+ * 配置提供器
+ */
 public class JetCacheBaseBeans {
 
     protected SpringConfigProvider createConfigProvider() {

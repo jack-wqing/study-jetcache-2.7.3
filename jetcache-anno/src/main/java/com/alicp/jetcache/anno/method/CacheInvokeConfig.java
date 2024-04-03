@@ -12,7 +12,7 @@ import java.util.List;
 /**
  * @author <a href="mailto:areyouok@gmail.com">huangli</a>
  *
- * 方法调用的时候：方法的注解信息配置
+ * 缓存调用时，方法上注解全部映射
  *
  */
 public class CacheInvokeConfig {

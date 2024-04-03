@@ -7,6 +7,10 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
  *
  * @author <a href="mailto:areyouok@gmail.com">huangli</a>
  */
+
+/**
+ * 全局配置
+ */
 @ConfigurationProperties(prefix = "jetcache")
 public class JetCacheProperties {
 

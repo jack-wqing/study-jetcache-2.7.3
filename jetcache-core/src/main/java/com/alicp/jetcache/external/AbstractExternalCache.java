@@ -13,6 +13,12 @@ import java.io.IOException;
  *
  * @author <a href="mailto:areyouok@gmail.com">huangli</a>
  */
+
+/**
+ * remote缓存，或者远程缓存的顶层抽象
+ * @param <K>
+ * @param <V>
+ */
 public abstract class AbstractExternalCache<K, V> extends AbstractCache<K, V> {
 
     private ExternalCacheConfig<K, V> config;

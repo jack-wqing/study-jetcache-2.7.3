@@ -20,6 +20,10 @@ import java.util.function.Supplier;
 /**
  * @author <a href="mailto:areyouok@gmail.com">huangli</a>
  */
+
+/**
+ * 支持缓存在某个线程中手动启动
+ */
 public class CacheContext {
 
     private static Logger logger = LoggerFactory.getLogger(CacheContext.class);
@@ -32,7 +36,9 @@ public class CacheContext {
     };
 
     private ConfigProvider configProvider;
+
     private GlobalCacheConfig globalCacheConfig;
+
     private CacheManager cacheManager;
 
     public CacheContext(CacheManager cacheManager, ConfigProvider configProvider, GlobalCacheConfig globalCacheConfig) {

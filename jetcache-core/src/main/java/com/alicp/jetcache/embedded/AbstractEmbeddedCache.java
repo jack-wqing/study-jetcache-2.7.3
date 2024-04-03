@@ -22,6 +22,10 @@ import java.util.stream.Collectors;
 /**
  * @author <a href="mailto:areyouok@gmail.com">huangli</a>
  */
+
+/**
+ * 本地缓存[Embedded]缓存
+ */
 public abstract class AbstractEmbeddedCache<K, V> extends AbstractCache<K, V> {
     protected EmbeddedCacheConfig<K, V> config;
     protected InnerMap innerMap;

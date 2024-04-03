@@ -21,6 +21,10 @@ import java.util.Set;
  *
  * @author <a href="mailto:areyouok@gmail.com">huangli</a>
  */
+
+/**
+ * 每个独立的缓存类型 builder CacheAutoInit
+ */
 public abstract class AbstractCacheAutoInit implements InitializingBean {
 
     private static Logger logger = LoggerFactory.getLogger(AbstractCacheAutoInit.class);

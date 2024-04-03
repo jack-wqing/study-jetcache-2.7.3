@@ -6,6 +6,10 @@ package com.alicp.jetcache.anno.support;
 /**
  * @author <a href="mailto:areyouok@gmail.com">huangli</a>
  */
+
+/**
+ * 缓存ThreadLocal
+ */
 class CacheThreadLocal {
 
     private int enabledCount = 0;

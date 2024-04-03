@@ -32,6 +32,10 @@ import java.util.function.Supplier;
 /**
  * @author <a href="mailto:areyouok@gmail.com">huangli</a>
  */
+
+/**
+ * JDK 代理 InvocationHandler
+ */
 public class CacheHandler implements InvocationHandler {
     private static Logger logger = LoggerFactory.getLogger(CacheHandler.class);
 

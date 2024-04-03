@@ -13,6 +13,10 @@ import java.util.concurrent.TimeUnit;
  *
  * @author <a href="mailto:areyouok@gmail.com">huangli</a>
  */
+
+/**
+ * Caffeine 本地缓存的实现
+ */
 public class CaffeineCache<K, V> extends AbstractEmbeddedCache<K, V> {
 
     private com.github.benmanes.caffeine.cache.Cache cache;

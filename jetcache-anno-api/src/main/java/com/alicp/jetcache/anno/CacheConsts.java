@@ -8,6 +8,7 @@ import java.time.Duration;
 /**
  * @author <a href="mailto:areyouok@gmail.com">huangli</a>
  */
+// 一些默认的设置
 public interface CacheConsts {
     String DEFAULT_AREA = "default";
     boolean DEFAULT_ENABLED = true;

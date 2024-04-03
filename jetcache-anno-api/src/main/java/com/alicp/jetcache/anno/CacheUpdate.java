@@ -3,11 +3,15 @@
  */
 package com.alicp.jetcache.anno;
 
-import java.lang.annotation.*;
+import java.lang.annotation.Documented;
+import java.lang.annotation.ElementType;
+import java.lang.annotation.Retention;
+import java.lang.annotation.RetentionPolicy;
+import java.lang.annotation.Target;
 
 /**
  * @author <a href="mailto:areyouok@gmail.com">huangli</a>
- * 缓存更新操作：执行标记的方法执行缓存的更新
+ * 缓存更新注解，标记的方法执行缓存的更新
  */
 @Documented
 @Retention(RetentionPolicy.RUNTIME)

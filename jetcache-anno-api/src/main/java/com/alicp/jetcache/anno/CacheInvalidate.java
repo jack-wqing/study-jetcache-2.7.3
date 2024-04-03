@@ -3,11 +3,16 @@
  */
 package com.alicp.jetcache.anno;
 
-import java.lang.annotation.*;
+import java.lang.annotation.Documented;
+import java.lang.annotation.ElementType;
+import java.lang.annotation.Repeatable;
+import java.lang.annotation.Retention;
+import java.lang.annotation.RetentionPolicy;
+import java.lang.annotation.Target;
 
 /**
  * @author <a href="mailto:areyouok@gmail.com">huangli</a>
- * 设置缓存不可用的/方法是删除缓存不可用的数据
+ * 设置缓存不可用，方法级别的注解
  */
 @Documented
 @Retention(RetentionPolicy.RUNTIME)

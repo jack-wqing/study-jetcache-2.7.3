@@ -8,10 +8,14 @@ import org.junit.jupiter.api.Test;
 
 import java.lang.reflect.Method;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertThrows;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
 /**
  * @author <a href="mailto:areyouok@gmail.com">huangli</a>
+ */
+/**
+ * 表达是测试集合
  */
 public class ExpressionEvaluatorTest {
 

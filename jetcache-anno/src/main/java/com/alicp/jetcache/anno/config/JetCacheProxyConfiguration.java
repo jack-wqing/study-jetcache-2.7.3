@@ -18,6 +18,10 @@ import org.springframework.core.type.AnnotationMetadata;
  *
  * @author <a href="mailto:areyouok@gmail.com">huangli</a>
  */
+
+/**
+ * JetCache 缓存基本组件注入
+ */
 @Configuration
 public class JetCacheProxyConfiguration implements ImportAware, ApplicationContextAware {
 

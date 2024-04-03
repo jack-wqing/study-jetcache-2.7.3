@@ -15,6 +15,10 @@ import java.util.function.Consumer;
  *
  * @author <a href="mailto:areyouok@gmail.com">huangli</a>
  */
+
+/**
+ * 缓存统计日志打印
+ */
 public class StatInfoLogger implements Consumer<StatInfo> {
 
     private static Logger logger = LoggerFactory.getLogger(StatInfoLogger.class);

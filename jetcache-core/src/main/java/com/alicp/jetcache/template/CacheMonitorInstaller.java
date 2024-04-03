@@ -12,3 +12,8 @@ import com.alicp.jetcache.CacheManager;
 public interface CacheMonitorInstaller {
     void addMonitors(CacheManager cacheManager, Cache cache, QuickConfig quickConfig);
 }
+
+
+
+
+

@@ -10,6 +10,10 @@ import java.util.function.Function;
  *
  * @author <a href="mailto:areyouok@gmail.com">huangli</a>
  */
+
+/**
+ * 简单的静态代理
+ */
 public class SimpleProxyCache<K, V> implements ProxyCache<K, V> {
 
     protected Cache<K, V> cache;

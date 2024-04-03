@@ -21,6 +21,10 @@ import java.util.regex.Pattern;
 /**
  * @author <a href="mailto:areyouok@gmail.com">huangli</a>
  */
+
+/**
+ * 2.7.3支持的表达式，默认是Spel表达式，还可以是Mvel
+ */
 public class ExpressionEvaluator implements Function<Object, Object> {
     private static final Pattern pattern = Pattern.compile("\\s*(\\w+)\\s*\\{(.+)\\}\\s*");
     private Function<Object, Object> target;

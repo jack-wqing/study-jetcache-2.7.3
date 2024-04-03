@@ -10,6 +10,10 @@ import java.util.concurrent.*;
  *
  * @author <a href="mailto:areyouok@gmail.com">huangli</a>
  */
+
+/**
+ * 缓存操作结果记录
+ */
 public class CacheResult {
 
     public static final String MSG_ILLEGAL_ARGUMENT = "illegal argument";

@@ -20,6 +20,10 @@ import java.util.Objects;
  *
  * @author <a href="mailto:jeason1914@qq.com">yangyong</a>
  */
+
+/**
+ * RedissonClient支持
+ */
 @Configuration
 @Conditional(RedissonAutoConfiguration.RedissonCondition.class)
 public class RedissonAutoConfiguration {

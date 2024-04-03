@@ -12,6 +12,10 @@ import java.util.function.Supplier;
  *
  * @author <a href="mailto:areyouok@gmail.com">huangli</a>
  */
+
+/**
+ * 外部缓存配置抽象
+ */
 public class ExternalCacheConfig<K, V> extends CacheConfig<K, V> {
 
     private Supplier<String> keyPrefixSupplier;

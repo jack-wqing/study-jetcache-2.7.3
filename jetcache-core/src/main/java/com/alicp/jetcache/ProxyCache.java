@@ -5,6 +5,10 @@ package com.alicp.jetcache;
  *
  * @author <a href="mailto:areyouok@gmail.com">huangli</a>
  */
+
+/**
+ * 代理缓存抽象
+ */
 public interface ProxyCache<K, V> extends Cache<K, V> {
     Cache<K, V> getTargetCache();
 

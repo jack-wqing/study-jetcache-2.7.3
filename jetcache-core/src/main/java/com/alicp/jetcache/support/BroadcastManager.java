@@ -4,13 +4,13 @@
 package com.alicp.jetcache.support;
 
 import com.alicp.jetcache.Cache;
+import com.alicp.jetcache.CacheConfigException;
 import com.alicp.jetcache.CacheManager;
 import com.alicp.jetcache.CacheResult;
 import com.alicp.jetcache.CacheUtil;
 import com.alicp.jetcache.MultiLevelCache;
 import com.alicp.jetcache.embedded.AbstractEmbeddedCache;
 import com.alicp.jetcache.external.ExternalCacheConfig;
-import com.alicp.jetcache.CacheConfigException;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -22,6 +22,10 @@ import java.util.stream.Stream;
 
 /**
  * @author <a href="mailto:areyouok@gmail.com">huangli</a>
+ */
+
+/**
+ * 缓存删除，需要更新多级缓存的情况下。本地缓存[远程缓存删除。但是本地缓存还存在]
  */
 public abstract class BroadcastManager implements AutoCloseable {
     private static Logger logger = LoggerFactory.getLogger(BroadcastManager.class);

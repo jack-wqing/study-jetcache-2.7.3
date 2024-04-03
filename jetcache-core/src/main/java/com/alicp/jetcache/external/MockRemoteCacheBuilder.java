@@ -10,6 +10,10 @@ import com.alicp.jetcache.support.CacheMessage;
  *
  * @author <a href="mailto:areyouok@gmail.com">huangli</a>
  */
+
+/**
+ * MockRemoteCacheBuilder
+ */
 public class MockRemoteCacheBuilder<T extends ExternalCacheBuilder<T>> extends ExternalCacheBuilder<T> {
 
     private static boolean subscribeStart;

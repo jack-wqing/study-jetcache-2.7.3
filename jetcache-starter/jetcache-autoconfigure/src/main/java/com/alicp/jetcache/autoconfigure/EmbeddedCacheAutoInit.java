@@ -9,6 +9,10 @@ import com.alicp.jetcache.embedded.EmbeddedCacheBuilder;
  *
  * @author <a href="mailto:areyouok@gmail.com">huangli</a>
  */
+
+/**
+ * 本地缓存构建
+ */
 public abstract class EmbeddedCacheAutoInit extends AbstractCacheAutoInit {
 
     public EmbeddedCacheAutoInit(String... cacheTypes) {

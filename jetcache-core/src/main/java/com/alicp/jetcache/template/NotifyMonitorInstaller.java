@@ -18,6 +18,10 @@ import java.util.function.Function;
 /**
  * @author <a href="mailto:areyouok@gmail.com">huangli</a>
  */
+
+/**
+ * 缓存通知与CacheBuilder关联
+ */
 public class NotifyMonitorInstaller implements CacheMonitorInstaller {
 
     private final Function<String, CacheBuilder> remoteBuilderTemplate;

@@ -23,6 +23,10 @@ import java.nio.charset.StandardCharsets;
 /**
  * @author <a href="mailto:areyouok@gmail.com">huangli</a>
  */
+
+/**
+ * spring redis 怎么实现pubsub
+ */
 public class SpringDataBroadcastManager extends BroadcastManager {
 
     private static final Logger logger = LoggerFactory.getLogger(SpringDataBroadcastManager.class);

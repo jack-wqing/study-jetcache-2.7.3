@@ -15,6 +15,9 @@ import java.util.Map;
  */
 public class CacheBuilderTemplate {
     private final boolean penetrationProtect;
+    /**
+     * 数组:[0]-> 本地缓存的CacheBuilder [1]-> Remote缓存的Builder
+     */
     private final Map<String, CacheBuilder>[] cacheBuilders;
     private final List<CacheMonitorInstaller> cacheMonitorInstallers = new ArrayList<>();
 

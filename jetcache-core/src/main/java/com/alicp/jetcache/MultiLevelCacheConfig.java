@@ -8,6 +8,10 @@ import java.util.List;
  *
  * @author <a href="mailto:areyouok@gmail.com">huangli</a>
  */
+
+/**
+ * 多级缓存配置
+ */
 public class MultiLevelCacheConfig<K, V> extends CacheConfig<K, V> {
     private List<Cache<K, V>> caches = new ArrayList<>();
     private boolean useExpireOfSubCache;

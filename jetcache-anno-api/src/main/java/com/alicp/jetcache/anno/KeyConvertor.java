@@ -10,6 +10,10 @@ import java.util.function.Function;
  *
  * @author <a href="mailto:areyouok@gmail.com">huangli</a>
  */
+
+/**
+ * function 接口实现: 执行缓存中key的转换器
+ */
 public interface KeyConvertor extends Function<Object, Object> {
     String NONE = "NONE";
     String FASTJSON = "FASTJSON";

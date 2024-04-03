@@ -15,6 +15,10 @@ import java.util.Date;
  *
  * @author <a href="mailto:areyouok@gmail.com">huangli</a>
  */
+
+/**
+ * 缓存key前缀统一构建
+ */
 public class ExternalKeyUtil {
     public static byte[] buildKeyAfterConvert(Object newKey, String prefix) throws IOException {
         if (newKey == null) {

@@ -13,6 +13,10 @@ import java.util.concurrent.TimeUnit;
  *
  * @author <a href="mailto:areyouok@gmail.com">huangli</a>
  */
+
+/**
+ * 本地缓存过期清理机制 定时任务判断
+ */
 class Cleaner {
 
     static LinkedList<WeakReference<LinkedHashMapCache>> linkedHashMapCaches = new LinkedList<>();

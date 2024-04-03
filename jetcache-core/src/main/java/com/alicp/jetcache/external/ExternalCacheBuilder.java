@@ -12,6 +12,11 @@ import java.util.function.Supplier;
  *
  * @author <a href="mailto:areyouok@gmail.com">huangli</a>
  */
+
+/**
+ * ExtendCacheBuilder
+ * @param <T>
+ */
 public abstract class ExternalCacheBuilder<T extends ExternalCacheBuilder<T>> extends AbstractCacheBuilder<T> {
 
     @Override

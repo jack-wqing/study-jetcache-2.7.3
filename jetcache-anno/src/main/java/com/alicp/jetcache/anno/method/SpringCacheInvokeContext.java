@@ -8,6 +8,10 @@ import org.springframework.context.ApplicationContext;
 /**
  * @author <a href="mailto:areyouok@gmail.com">huangli</a>
  */
+
+/**
+ * Spring 支持缓存 cacheInvokeContext
+ */
 public class SpringCacheInvokeContext extends CacheInvokeContext {
     protected ApplicationContext context;
 

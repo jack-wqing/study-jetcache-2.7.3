@@ -3,16 +3,13 @@
  */
 package com.alicp.jetcache.anno.support;
 
-import com.alicp.jetcache.CacheConfigException;
 import com.alicp.jetcache.anno.SerialPolicy;
-import com.alicp.jetcache.support.*;
+import com.alicp.jetcache.support.JavaValueDecoder;
+import com.alicp.jetcache.support.SpringJavaValueDecoder;
 import org.springframework.beans.BeansException;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.ApplicationContextAware;
 
-import java.net.URI;
-import java.util.HashMap;
-import java.util.Map;
 import java.util.function.Function;
 
 /**

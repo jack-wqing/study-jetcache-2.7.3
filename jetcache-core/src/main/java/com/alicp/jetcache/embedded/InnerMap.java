@@ -9,6 +9,10 @@ import java.util.Map;
 /**
  * @author <a href="mailto:areyouok@gmail.com">huangli</a>
  */
+
+/**
+ * 本地缓存的上层抽象
+ */
 public interface InnerMap {
     Object getValue(Object key);
 

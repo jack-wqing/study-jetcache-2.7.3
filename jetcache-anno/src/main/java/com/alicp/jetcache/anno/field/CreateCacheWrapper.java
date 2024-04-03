@@ -24,6 +24,10 @@ import java.lang.reflect.Field;
  *
  * @author <a href="mailto:areyouok@gmail.com">huangli</a>
  */
+
+/**
+ * 对于缓存 CreateCache 注解的使用支持，CreateCache注解已经 @Deprecated 标记
+ */
 class CreateCacheWrapper {
 
     private static final Logger logger = LoggerFactory.getLogger(CreateCacheWrapper.class);

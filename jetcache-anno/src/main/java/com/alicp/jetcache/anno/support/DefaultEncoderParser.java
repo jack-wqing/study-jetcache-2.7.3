@@ -20,6 +20,10 @@ import java.util.function.Function;
 /**
  * @author <a href="mailto:areyouok@gmail.com">huangli</a>
  */
+
+/**
+ * 值编码解码选择器
+ */
 public class DefaultEncoderParser implements EncoderParser {
     protected static Map<String, String> parseQueryParameters(String query) {
         Map<String, String> m = new HashMap<>();

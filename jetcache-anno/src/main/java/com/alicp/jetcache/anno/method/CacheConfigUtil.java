@@ -27,7 +27,9 @@ import java.util.concurrent.TimeUnit;
 /**
  * @author <a href="mailto:areyouok@gmail.com">huangli</a>
  * 方法缓存信息注解累被使用在：com.alicp.jetcache.anno.aop.CachePointcut#matchesImpl(java.lang.reflect.Method, java.lang.Class)
+ * 方法注解和具体的映射关系，映射
  */
+
 public class CacheConfigUtil {
     private static CachedAnnoConfig parseCached(Method m) {
         Cached anno = m.getAnnotation(Cached.class);

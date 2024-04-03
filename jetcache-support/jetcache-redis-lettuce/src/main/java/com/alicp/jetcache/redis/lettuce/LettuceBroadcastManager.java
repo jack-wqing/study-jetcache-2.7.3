@@ -23,6 +23,10 @@ import java.nio.charset.StandardCharsets;
 /**
  * @author <a href="mailto:areyouok@gmail.com">huangli</a>
  */
+
+/**
+ * Lettuce实现pubsub
+ */
 public class LettuceBroadcastManager extends BroadcastManager {
     private static final Logger logger = LoggerFactory.getLogger(LettuceBroadcastManager.class);
 

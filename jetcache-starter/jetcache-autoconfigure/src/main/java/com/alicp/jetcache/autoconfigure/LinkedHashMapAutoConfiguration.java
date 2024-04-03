@@ -10,6 +10,10 @@ import org.springframework.stereotype.Component;
  *
  * @author <a href="mailto:areyouok@gmail.com">huangli</a>
  */
+
+/**
+ * LinkedHashMap
+ */
 @Component
 @Conditional(LinkedHashMapAutoConfiguration.LinkedHashMapCondition.class)
 public class LinkedHashMapAutoConfiguration extends EmbeddedCacheAutoInit {

@@ -1,6 +1,5 @@
 package com.alicp.jetcache.redisson;
 
-import com.alicp.jetcache.CacheConfigException;
 import com.alicp.jetcache.CacheManager;
 import com.alicp.jetcache.CacheResult;
 import com.alicp.jetcache.support.BroadcastManager;
@@ -16,6 +15,10 @@ import java.util.Objects;
  * Created on 2022/7/12.
  *
  * @author <a href="mailto:jeason1914@qq.com">yangyong</a>
+ */
+
+/**
+ * redisson pubsub
  */
 public class RedissonBroadcastManager extends BroadcastManager {
     private static final Logger logger = LoggerFactory.getLogger(RedissonBroadcastManager.class);

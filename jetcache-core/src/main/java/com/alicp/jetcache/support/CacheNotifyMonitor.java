@@ -22,6 +22,10 @@ import java.util.function.Function;
 /**
  * @author <a href="mailto:areyouok@gmail.com">huangli</a>
  */
+
+/**
+ * 分布式缓存的情况下，集群缓存通知机制
+ */
 public class CacheNotifyMonitor implements CacheMonitor {
     private final BroadcastManager broadcastManager;
     private final String area;

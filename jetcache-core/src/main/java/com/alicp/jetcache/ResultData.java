@@ -5,6 +5,7 @@ package com.alicp.jetcache;
  *
  * @author <a href="mailto:areyouok@gmail.com">huangli</a>
  */
+// 缓存结果对象封装
 public class ResultData {
     private CacheResultCode resultCode;
     private String message;

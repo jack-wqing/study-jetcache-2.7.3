@@ -39,6 +39,10 @@ import java.util.function.Function;
  *
  * @author <a href="mailto:areyouok@gmail.com">huangli</a>
  */
+
+/**
+ * 原始版本jedis缓存
+ */
 public class RedisCache<K, V> extends AbstractExternalCache<K, V> {
 
     private static Logger logger = LoggerFactory.getLogger(RedisCache.class);

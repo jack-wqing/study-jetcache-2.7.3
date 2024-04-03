@@ -20,6 +20,10 @@ import java.util.stream.Collectors;
  *
  * @author <a href="mailto:areyouok@gmail.com">huangli</a>
  */
+
+/**
+ * 对于缓存命中的统计打印
+ */
 public class DefaultMetricsManager {
     private static final Logger logger = LoggerFactory.getLogger(DefaultMetricsManager.class);
 

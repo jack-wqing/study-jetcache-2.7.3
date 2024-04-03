@@ -7,6 +7,10 @@ import com.alicp.jetcache.AbstractCacheBuilder;
  *
  * @author <a href="mailto:areyouok@gmail.com">huangli</a>
  */
+
+/**
+ * builder impl cache->config
+ */
 public class EmbeddedCacheBuilder<T extends EmbeddedCacheBuilder<T>> extends AbstractCacheBuilder<T> {
 
     public EmbeddedCacheBuilder(){

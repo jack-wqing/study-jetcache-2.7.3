@@ -10,6 +10,10 @@ import java.nio.ByteBuffer;
  *
  * @author <a href="mailto:areyouok@gmail.com">huangli</a>
  */
+
+/**
+ * Lettuce 编解码器
+ */
 public class JetCacheCodec implements RedisCodec {
 
     @Override

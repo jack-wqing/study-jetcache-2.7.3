@@ -2,6 +2,9 @@ package com.alicp.jetcache.external;
 
 import com.alicp.jetcache.anno.CacheConsts;
 
+/**
+ * mock 远程缓存
+ */
 public class MockRemoteCacheConfig<K, V> extends ExternalCacheConfig<K, V> {
     private int limit = CacheConsts.DEFAULT_LOCAL_LIMIT;
 

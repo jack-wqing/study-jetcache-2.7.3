@@ -12,6 +12,10 @@ import java.util.Arrays;
  *
  * @author <a href="mailto:areyouok@gmail.com">huangli</a>
  */
+
+/**
+ * 设置对依赖的bean先进行注入
+ */
 public class BeanDependencyManager implements BeanFactoryPostProcessor {
 
     @Override

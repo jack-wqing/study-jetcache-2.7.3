@@ -10,6 +10,10 @@ import com.alicp.jetcache.template.QuickConfig;
 /**
  * @author <a href="mailto:areyouok@gmail.com">huangli</a>
  */
+
+/**
+ * CacheManager接口
+ */
 public interface CacheManager {
     <K, V> Cache<K, V> getCache(String area, String cacheName);
 

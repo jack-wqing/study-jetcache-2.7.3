@@ -9,6 +9,11 @@ import java.util.concurrent.CompletionStage;
 /**
  * @author <a href="mailto:areyouok@gmail.com">huangli</a>
  */
+
+/**
+ * Get 值的结果
+ * @param <V>
+ */
 public class CacheGetResult<V> extends CacheResult {
     private volatile V value;
     private volatile CacheValueHolder<V> holder;

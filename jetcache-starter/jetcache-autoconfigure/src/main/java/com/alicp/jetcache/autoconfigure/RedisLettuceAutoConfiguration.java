@@ -35,6 +35,10 @@ import java.util.stream.Collectors;
  *
  * @author <a href="mailto:areyouok@gmail.com">huangli</a>
  */
+
+/**
+ * redis lettuce
+ */
 @Configuration
 @Conditional(RedisLettuceAutoConfiguration.RedisLettuceCondition.class)
 public class RedisLettuceAutoConfiguration {

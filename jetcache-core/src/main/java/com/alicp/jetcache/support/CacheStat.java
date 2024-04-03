@@ -9,6 +9,9 @@ import java.io.Serializable;
  *
  * @author <a href="mailto:areyouok@gmail.com">huangli</a>
  */
+/**
+ * 缓存统计状态
+ */
 public class CacheStat implements Serializable, Cloneable {
 
     private static final long serialVersionUID = -8802969946750554026L;

@@ -5,6 +5,10 @@ package com.alicp.jetcache;
  *
  * @author <a href="mailto:areyouok@gmail.com">huangli</a>
  */
+
+/**
+ * builder模式构建Cache
+ */
 public interface CacheBuilder {
     <K, V> Cache<K, V> buildCache();
 }

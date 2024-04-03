@@ -13,6 +13,10 @@ import java.util.regex.Pattern;
 /**
  * @author <a href="mailto:areyouok@gmail.com">huangli</a>
  */
+
+/**
+ * 默认缓存名生成器
+ */
 public class DefaultCacheNameGenerator implements CacheNameGenerator {
 
     protected final String[] hiddenPackages;

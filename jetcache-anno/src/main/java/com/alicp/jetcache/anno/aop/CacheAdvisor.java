@@ -11,6 +11,10 @@ import org.springframework.beans.factory.annotation.Autowired;
 /**
  * @author <a href="mailto:areyouok@gmail.com">huangli</a>
  */
+
+/**
+ * advisor 通知
+ */
 public class CacheAdvisor extends AbstractBeanFactoryPointcutAdvisor {
 
     public static final String CACHE_ADVISOR_BEAN_NAME = "jetcache2.internalCacheAdvisor";

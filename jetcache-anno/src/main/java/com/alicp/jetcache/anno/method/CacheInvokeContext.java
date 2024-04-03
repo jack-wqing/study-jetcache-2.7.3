@@ -8,10 +8,14 @@ import com.alicp.jetcache.anno.support.CacheAnnoConfig;
 
 import java.lang.reflect.Method;
 import java.util.function.BiFunction;
-import java.util.function.Function;
 
 /**
  * @author <a href="mailto:areyouok@gmail.com">huangli</a>
+ */
+
+/**
+ * 缓存调用上下文 支持enable = false 在上下文中启动
+ * el 表达式的对象是 CacheInvokeContext 该对象，可以使用result method args target等
  */
 public class CacheInvokeContext {
     private Invoker invoker;

@@ -9,6 +9,10 @@ import redis.clients.jedis.UnifiedJedis;
  *
  * @author <a href="mailto:areyouok@gmail.com">huangli</a>
  */
+
+/**
+ * 暴露jedis连接
+ */
 public class JedisFactory implements FactoryBean<UnifiedJedis> {
     private String key;
     private Class<?> poolClass;

@@ -11,6 +11,10 @@ import java.util.concurrent.ConcurrentHashMap;
 /**
  * @author <a href="mailto:areyouok@gmail.com">huangli</a>
  */
+
+/**
+ * 缓存所有方法级别的配置
+ */
 public class ConfigMap {
 
     private ConcurrentHashMap<String, CacheInvokeConfig> methodInfoMap = new ConcurrentHashMap<>();

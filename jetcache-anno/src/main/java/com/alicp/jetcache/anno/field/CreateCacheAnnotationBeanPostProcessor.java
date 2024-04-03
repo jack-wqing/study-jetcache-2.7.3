@@ -29,6 +29,10 @@ import java.util.concurrent.ConcurrentHashMap;
  * @author <a href="mailto:areyouok@gmail.com">huangli</a>
  * @see org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor
  */
+
+/**
+ * 抽象支持 一个类的Cache 动态的设置缓存，使用
+ */
 @SuppressWarnings("AliMissingOverrideAnnotation")
 @Component // necessary when spring boot version <= 1.2.X
 public class CreateCacheAnnotationBeanPostProcessor extends AutowiredAnnotationBeanPostProcessor {

@@ -10,6 +10,10 @@ import java.util.function.Function;
  *
  * @author <a href="mailto:areyouok@gmail.com">huangli</a>
  */
+
+/**
+ * 缓存加载扩展接口
+ */
 @FunctionalInterface
 public interface CacheLoader<K, V> extends Function<K ,V> {
     V load(K key) throws Throwable;

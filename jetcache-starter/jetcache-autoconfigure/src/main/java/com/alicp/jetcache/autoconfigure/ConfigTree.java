@@ -15,6 +15,10 @@ import java.util.stream.Collectors;
  *
  * @author <a href="mailto:areyouok@gmail.com">huangli</a>
  */
+
+/**
+ * 多级配置树读取
+ */
 public class ConfigTree {
     private ConfigurableEnvironment environment;
     private String prefix;

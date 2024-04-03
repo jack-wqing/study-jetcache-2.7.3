@@ -13,6 +13,10 @@ import org.springframework.beans.factory.annotation.Autowired;
  *
  * @author <a href="mailto:areyouok@gmail.com">huangli</a>
  */
+
+/**
+ * 暴露Lettuce的链接给系统使用
+ */
 public class LettuceFactory implements FactoryBean {
     @Autowired
     private AutoConfigureBeans autoConfigureBeans;

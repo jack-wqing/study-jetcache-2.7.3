@@ -22,6 +22,10 @@ import java.util.function.Function;
  *
  * @author <a href="mailto:areyouok@gmail.com">huangli</a>
  */
+
+/**
+ * 支持缓存刷新的带来
+ */
 public class RefreshCache<K, V> extends LoadingCache<K, V> {
 
     private static final Logger logger = LoggerFactory.getLogger(RefreshCache.class);

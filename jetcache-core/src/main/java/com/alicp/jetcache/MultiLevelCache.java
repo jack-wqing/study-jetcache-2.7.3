@@ -14,6 +14,10 @@ import java.util.concurrent.TimeUnit;
  *
  * @author <a href="mailto:areyouok@gmail.com">huangli</a>
  */
+
+/**
+ * 多级缓存实现代理方式
+ */
 public class MultiLevelCache<K, V> extends AbstractCache<K, V> {
 
     private Cache[] caches;

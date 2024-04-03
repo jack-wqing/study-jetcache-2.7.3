@@ -24,6 +24,10 @@ import java.lang.reflect.Method;
 /**
  * @author <a href="mailto:areyouok@gmail.com">huangli</a>
  */
+
+/**
+ * MethodInterceptor
+ */
 public class JetCacheInterceptor implements MethodInterceptor, ApplicationContextAware {
 
     private static final Logger logger = LoggerFactory.getLogger(JetCacheInterceptor.class);

@@ -22,6 +22,10 @@ import java.lang.reflect.Modifier;
  * 在匹配的时候：通过切入点：把方法的信息放置到ConfigMap中，缓存起来
  *
  */
+
+/**
+ * 切入点设置
+ */
 public class CachePointcut extends StaticMethodMatcherPointcut implements ClassFilter {
 
     private static final Logger logger = LoggerFactory.getLogger(CachePointcut.class);

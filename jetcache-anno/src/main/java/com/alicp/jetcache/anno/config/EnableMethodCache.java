@@ -10,6 +10,10 @@ import java.lang.annotation.*;
  * Created on 2016/11/16.
  * spring 使用的方式：通过enable的方式，启动缓存，注入缓存需要的组件
  */
+
+/**
+ * spring enable款式
+ */
 @Target(ElementType.TYPE)
 @Retention(RetentionPolicy.RUNTIME)
 @Documented

@@ -10,6 +10,10 @@ import org.springframework.stereotype.Component;
  *
  * @author <a href="mailto:areyouok@gmail.com">huangli</a>
  */
+
+/**
+ * Caffeine CacheAutoInit
+ */
 @Component
 @Conditional(CaffeineAutoConfiguration.CaffeineCondition.class)
 public class CaffeineAutoConfiguration extends EmbeddedCacheAutoInit {

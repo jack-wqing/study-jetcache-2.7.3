@@ -30,7 +30,7 @@ public class SimpleCacheManager implements CacheManager, AutoCloseable {
 
     // area -> cacheName -> Cache
     private final ConcurrentHashMap<String, ConcurrentHashMap<String, Cache>> caches = new ConcurrentHashMap<>();
-
+    // area -> BroadCast
     private final ConcurrentHashMap<String, BroadcastManager> broadcastManagers = new ConcurrentHashMap();
 
     private CacheBuilderTemplate cacheBuilderTemplate;

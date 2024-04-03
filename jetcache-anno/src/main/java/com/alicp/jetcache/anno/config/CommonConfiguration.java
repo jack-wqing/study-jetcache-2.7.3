@@ -12,6 +12,10 @@ import org.springframework.context.annotation.Role;
 /**
  * @author <a href="mailto:areyouok@gmail.com">huangli</a>
  */
+
+/**
+ * ConfigMap 全局定义 jetCache缓存注解的缓存
+ */
 @Configuration
 public class CommonConfiguration {
 

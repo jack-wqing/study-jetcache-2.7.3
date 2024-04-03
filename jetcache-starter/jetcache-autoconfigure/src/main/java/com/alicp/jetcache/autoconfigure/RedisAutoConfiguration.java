@@ -35,6 +35,10 @@ import java.util.stream.Collectors;
  *
  * @author <a href="mailto:areyouok@gmail.com">huangli</a>
  */
+
+/**
+ * redis原生配置client
+ */
 @Configuration
 @Conditional(RedisAutoConfiguration.RedisCondition.class)
 public class RedisAutoConfiguration {

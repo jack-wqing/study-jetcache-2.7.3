@@ -19,6 +19,10 @@ import java.util.Map;
  *
  * @author <a href="mailto:areyouok@gmail.com">huangli</a>
  */
+
+/**
+ * Spring Redis RedisConnectionFactory
+ */
 @Configuration
 @Conditional(RedisSpringDataAutoConfiguration.SpringDataRedisCondition.class)
 public class RedisSpringDataAutoConfiguration {

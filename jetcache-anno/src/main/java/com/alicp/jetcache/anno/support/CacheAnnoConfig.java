@@ -11,6 +11,10 @@ import java.util.function.Function;
 /**
  * @author <a href="mailto:areyouok@gmail.com">huangli</a>
  */
+
+/**
+ * jetcache 方法级别注解映射类
+ */
 public class CacheAnnoConfig {
     private String area;
     private String name;

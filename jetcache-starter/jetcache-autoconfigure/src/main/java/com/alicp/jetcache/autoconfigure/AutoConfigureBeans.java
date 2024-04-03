@@ -11,6 +11,10 @@ import java.util.Map;
  *
  * @author <a href="mailto:areyouok@gmail.com">huangli</a>
  */
+
+/**
+ * 自动配置类的缓存 AutoConfigure 就是CacheAutoInit启动配置的类缓存
+ */
 public class AutoConfigureBeans {
 
     private Map<String, CacheBuilder> localCacheBuilders = new HashMap<>();

@@ -15,6 +15,10 @@ import java.util.function.Consumer;
  *
  * @author <a href="mailto:areyouok@gmail.com">huangli</a>
  */
+
+/**
+ * 缓存提供Spring框架的支持
+ */
 public class SpringConfigProvider extends ConfigProvider implements ApplicationContextAware {
     private ApplicationContext applicationContext;
 

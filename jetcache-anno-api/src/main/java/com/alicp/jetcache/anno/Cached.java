@@ -12,7 +12,7 @@ import java.util.concurrent.TimeUnit;
 
 /**
  * @author <a href="mailto:areyouok@gmail.com">huangli</a>
- * 方法级别的缓存信息配置
+ * 方法上使用该注解指明缓存信息
  */
 @Documented
 @Retention(RetentionPolicy.RUNTIME)

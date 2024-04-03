@@ -10,6 +10,10 @@ import redis.clients.jedis.util.Pool;
  *
  * @author <a href="mailto:areyouok@gmail.com">huangli</a>
  */
+
+/**
+ * 暴露Jedis链接池
+ */
 public class JedisPoolFactory implements FactoryBean<Pool<Jedis>> {
     private String key;
     private Class<?> poolClass;

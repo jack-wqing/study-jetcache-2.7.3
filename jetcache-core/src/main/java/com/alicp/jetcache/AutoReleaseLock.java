@@ -5,6 +5,10 @@ package com.alicp.jetcache;
  *
  * @author <a href="mailto:areyouok@gmail.com">huangli</a>
  */
+
+/**
+ * 支持Try with的方式去释放 Lock
+ */
 public interface AutoReleaseLock extends AutoCloseable {
     /**
      * Release the lock use Java 7 try-with-resources.

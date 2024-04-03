@@ -10,6 +10,10 @@ import java.util.concurrent.CompletionStage;
  *
  * @author <a href="mailto:areyouok@gmail.com">huangli</a>
  */
+
+/**
+ * 返回结果多值包装
+ */
 public class MultiGetResult<K, V> extends CacheResult {
     private volatile Map<K, CacheGetResult<V>> values;
 

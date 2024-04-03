@@ -10,6 +10,10 @@ import com.alicp.jetcache.Cache;
  *
  * @author <a href="mailto:areyouok@gmail.com">huangli</a>
  */
+
+/**
+ * 缓存事件的抽象
+ */
 public class CacheEvent {
 
     protected Cache cache;

@@ -12,6 +12,10 @@ import java.util.function.Function;
 /**
  * @author <a href="mailto:areyouok@gmail.com">huangli</a>
  */
+
+/**
+ * Cached 注解映射
+ */
 public class CachedAnnoConfig extends CacheAnnoConfig {
 
     private boolean enabled;

@@ -7,6 +7,10 @@ import com.alicp.jetcache.event.CacheEvent;
  *
  * @author <a href="mailto:areyouok@gmail.com">huangli</a>
  */
+
+/**
+ * 缓存操作监视器
+ */
 @FunctionalInterface
 public interface CacheMonitor {
 

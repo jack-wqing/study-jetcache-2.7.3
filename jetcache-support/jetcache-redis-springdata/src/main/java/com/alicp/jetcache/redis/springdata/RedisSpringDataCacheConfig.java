@@ -9,6 +9,10 @@ import org.springframework.data.redis.listener.RedisMessageListenerContainer;
  *
  * @author <a href="mailto:areyouok@gmail.com">huangli</a>
  */
+
+/**
+ * spring redis CacheConfig
+ */
 public class RedisSpringDataCacheConfig<K, V> extends ExternalCacheConfig<K, V> {
 
     private RedisConnectionFactory connectionFactory;

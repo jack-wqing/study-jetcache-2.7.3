@@ -19,6 +19,10 @@ import java.nio.charset.StandardCharsets;
  *
  * @author <a href="mailto:areyouok@gmail.com">huangli</a>
  */
+
+/**
+ * redis client BroadcastManager
+ */
 public class RedisBroadcastManager extends BroadcastManager {
 
     private static final Logger logger = LoggerFactory.getLogger(RedisBroadcastManager.class);

@@ -15,6 +15,10 @@ import java.util.function.Function;
 /**
  * @author <a href="mailto:areyouok@gmail.com">huangli</a>
  */
+
+/**
+ * 缓存创建配置, 内置API得形式创建
+ */
 public class QuickConfig {
     private String area = CacheConsts.DEFAULT_AREA;
     private String name;
@@ -22,7 +26,7 @@ public class QuickConfig {
     private Duration localExpire;
     private Integer localLimit;
     private CacheType cacheType;
-    private Boolean syncLocal;
+    private Boolean syncLocal;  // 分布式情况下，本地缓存更新是否更新其它机器的缓存
     private Function<Object, Object> keyConvertor;
     private Function<Object, byte[]> valueEncoder;
     private Function<byte[], Object> valueDecoder;

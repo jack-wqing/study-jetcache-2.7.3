@@ -19,6 +19,10 @@ import java.util.function.Consumer;
 /**
  * @author <a href="mailto:areyouok@gmail.com">huangli</a>
  */
+
+/**
+ * 缓存操作统计Monitor
+ */
 public class MetricsMonitorInstaller extends AbstractLifecycle implements CacheMonitorInstaller {
 
     private final Consumer<StatInfo> metricsCallback;

@@ -15,6 +15,10 @@ import java.util.function.Function;
  *
  * @author <a href="mailto:areyouok@gmail.com">huangli</a>
  */
+
+/**
+ * 缓存的统一接口
+ */
 public interface Cache<K, V> extends Closeable {
 
     Logger logger = LoggerFactory.getLogger(Cache.class);
@@ -172,6 +176,9 @@ public interface Cache<K, V> extends Closeable {
      *         or error occurs during cache access.
      * @see #tryLockAndRun(Object, long, TimeUnit, Runnable)
      */
+    /**
+     * 尝试获得一个排他锁
+     */
     @SuppressWarnings("unchecked")
     default AutoReleaseLock tryLock(K key, long expire, TimeUnit timeUnit) {
         if (key == null) {
@@ -181,7 +188,7 @@ public interface Cache<K, V> extends Closeable {
         final long expireTimestamp = System.currentTimeMillis() + timeUnit.toMillis(expire);
         final CacheConfig config = config();
 
-
+        // 进行锁的关闭
         AutoReleaseLock lock = () -> {
             int unlockCount = 0;
             while (unlockCount++ < config.getTryLockUnlockCount()) {
@@ -211,6 +218,7 @@ public interface Cache<K, V> extends Closeable {
 
         int lockCount = 0;
         Cache cache = this;
+        // 通过配置的最大加锁尝试次数进行加锁
         while (lockCount++ < config.getTryLockLockCount()) {
             CacheResult lockResult = cache.PUT_IF_ABSENT(key, uuid, expire, timeUnit);
             if (lockResult.isSuccess()) {
@@ -222,6 +230,7 @@ public interface Cache<K, V> extends Closeable {
                         lockCount, config.getTryLockLockCount(), uuid,
                         config.getTryLockInquiryCount(), key, lockResult.getMessage());
                 int inquiryCount = 0;
+                // 加锁失败需要询探索失败原因，进行获取该锁判断
                 while (inquiryCount++ < config.getTryLockInquiryCount()) {
                     CacheGetResult inquiryResult = cache.GET(key);
                     if (inquiryResult.isSuccess()) {

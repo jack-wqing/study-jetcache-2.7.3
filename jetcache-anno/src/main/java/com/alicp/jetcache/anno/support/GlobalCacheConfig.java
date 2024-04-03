@@ -10,6 +10,9 @@ import java.util.Map;
 /**
  * @author <a href="mailto:areyouok@gmail.com">huangli</a>
  */
+/**
+ * 全局缓存配置
+ */
 public class GlobalCacheConfig {
 
     private String[] hiddenPackages;
